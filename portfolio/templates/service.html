@@ -1,0 +1,136 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Service Page{%endblock%}
+{% block content %}
+ <!--================Home Banner Area =================-->
+ <section class="banner_area">
+    <div class="box_1620">
+        <div class="banner_inner d-flex align-items-center">
+            <div class="container">
+                <div class="banner_content text-center">
+                    <h2>My Services</h2>
+                    <div class="page_link">
+                        <a href="{% url 'home-page'%}">Home</a>
+                        <a href="{% url 'service'%}">service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================End Home Banner Area =================-->
+<!-- ======= Services Section ======= -->
+<section id="services" class="services-mf pt-5 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="bi bi-briefcase"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Web Design</h2>
+              <p class="s-description text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+                provident vitae! Magni
+                tempora perferendis eum non provident.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-card-checklist"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Web Development</h2>
+                <p class="s-description text-center">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+                  provident vitae! Magni
+                  tempora perferendis eum non provident.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-bar-chart"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Photography</h2>
+                <p class="s-description text-center">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+                  provident vitae! Magni
+                  tempora perferendis eum non provident.
+                </p>
+              </div>
+            </div>
+          </div>
+        <!-- Add similar blocks for other services -->
+      </div>
+    </div>
+  </section><!-- End Services Section -->
+
+  <div class="section-counter paralax-mf bg-image" style="background-image: url({% static 'assets/img/counters-bg.jpg' %})">
+    <div class="overlay-mf"></div>
+    <div class="container position-relative">
+      <div class="row">
+        <div class="col-sm-3 col-lg-3">
+          <div class="counter-box counter-box pt-4 pt-md-0">
+            <div class="counter-ico">
+              <span class="ico-circle"><i class="bi bi-check"></i></span>
+            </div>
+            <div class="counter-num">
+              <p data-purecounter-start="0" data-purecounter-end="450" data-purecounter-duration="1" class="counter purecounter">25</p>
+              <span class="counter-text">WORKS COMPLETED</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 col-lg-3">
+          <div class="counter-box pt-4 pt-md-0">
+            <div class="counter-ico">
+              <span class="ico-circle"><i class="bi bi-journal-richtext"></i></span>
+            </div>
+            <div class="counter-num">
+              <p data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="counter purecounter">1</p>
+              <span class="counter-text">YEARS OF EXPERIENCE</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 col-lg-3">
+          <div class="counter-box pt-4 pt-md-0">
+            <div class="counter-ico">
+              <span class="ico-circle"><i class="bi bi-people"></i></span>
+            </div>
+            <div class="counter-num">
+              <p data-purecounter-start="0" data-purecounter-end="550" data-purecounter-duration="1" class="counter purecounter">15</p>
+              <span class="counter-text">TOTAL CLIENTS</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 col-lg-3">
+          <div class="counter-box pt-4 pt-md-0">
+            <div class="counter-ico">
+              <span class="ico-circle"><i class="bi bi-award"></i></span>
+            </div>
+            <div class="counter-num">
+              <p data-purecounter-start="0" data-purecounter-end="48" data-purecounter-duration="1" class="counter purecounter">10</p>
+              <span class="counter-text">AWARD WON</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- End Counter Section -->
+  
+  
+{% endblock %}

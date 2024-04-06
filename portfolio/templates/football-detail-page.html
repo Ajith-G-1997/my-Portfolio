@@ -1,0 +1,117 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Footbal Detail Page{%endblock%}
+{% block content%}
+<!--================Home Banner Area =================-->
+<section class="banner_area">
+    <div class="box_1620">
+        <div class="banner_inner d-flex align-items-center">
+            <div class="container">
+                <div class="banner_content text-center">
+                    <h2>Football Details</h2>
+                    <div class="page_link">
+                        <a href="{% url 'likes'%}">Home</a>
+                        <a href="#">Football Page</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ================End Home Banner Area ================= -->
+
+    
+    
+    <!--================Home Gallery Area =================-->
+    <section class="home_gallery_area p_120">
+        <div class="container">
+            <div class="main_title">
+                <h2>My Favourite Football Players</h2>
+                <p>Who are in extremely love with eco friendly system.</p>
+            </div>
+            
+        </div>
+        <div class="container">
+            <div class="gallery_f_inner row imageGallery1">
+                <div class="col-lg-4 col-md-4 col-sm-6 brand manipul design print">
+                    <div class="h_gallery_item">
+                        <div class="g_img_item">
+                            <img class="img-fluid" src="{% static 'img/gallery/project-19.jpg' %}" alt="">
+                            <a class="light" href="{% static 'img/gallery/project-19.jpg' %}"><img src="{% static 'img/gallery/icon.png' %}" alt=""></a>
+                        </div>
+                        <div class="g_item_text">
+                            <h4> Cristiano Ronaldo</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero fuga alias rem assumenda reprehenderit aliquam cum eius autem magnam? Laborum explicabo praesentium rem. Repudiandae nihil non molestiae accusamus consequatur eligendi?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 brand manipul design print">
+                    <div class="h_gallery_item">
+                        <div class="g_img_item">
+                            <img class="img-fluid" src="{% static 'img/gallery/project-20.jpg' %}" alt="">
+                            <a class="light" href="{% static 'img/gallery/project-20.jpg' %}"><img src="{% static 'img/gallery/icon.png' %}" alt=""></a>
+                        </div>
+                        <div class="g_item_text">
+                            <h4>Lionel Messi</h4>
+        					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate perferendis debitis adipisci fugit nostrum pariatur ducimus perspiciatis sint! Mollitia in iusto dolore, omnis saepe unde reiciendis perferendis molestiae enim voluptate.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 brand manipul design print">
+                    <div class="h_gallery_item">
+                        <div class="g_img_item">
+                            <img class="img-fluid" src="{% static 'img/gallery/project-21.jpg' %}" alt="">
+                            <a class="light" href="{% static 'img/gallery/project-21.jpg' %}"><img src="{% static 'img/gallery/icon.png' %}" alt=""></a>
+                        </div>
+                        <div class="g_item_text">
+                            <h4>Neymar Jr</h4>
+        					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, adipisci quas? Id magnam temporibus, quae odio, ratione accusamus ipsum facere ullam blanditiis distinctio consequatur, adipisci sint aspernatur libero sunt impedit!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 brand manipul design print">
+                    <div class="h_gallery_item">
+                        <div class="g_img_item">
+                            <img class="img-fluid" src="{% static 'img/gallery/project-22.jpg' %}" alt="">
+                            <a class="light" href="{% static 'img/gallery/project-22.jpg' %}"><img src="{% static 'img/gallery/icon.png' %}" alt=""></a>
+                        </div>
+                        <div class="g_item_text">
+                            <h4>David Beckam </h4>
+        					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti recusandae sequi earum possimus tempora quisquam? Placeat praesentium a, corporis totam repellat sit officia culpa dolorem, quo sed, quia cupiditate consequatur?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 brand manipul design print">
+                    <div class="h_gallery_item">
+                        <div class="g_img_item">
+                            <img class="img-fluid" src="{% static 'img/gallery/project-23.jpg' %}" alt="">
+                            <a class="light" href="{% static 'img/gallery/project-23.jpg' %}"><img src="{% static 'img/gallery/icon.png' %}" alt=""></a>
+                        </div>
+                        <div class="g_item_text">
+                            <h4>PELE</h4>
+        					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam odio id nisi ipsa tempore saepe vero molestias culpa est! Minima, accusantium pariatur! Ut eveniet esse unde ab sapiente suscipit. Ipsam.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 brand manipul design print">
+                    <div class="h_gallery_item">
+                        <div class="g_img_item">
+                            <img class="img-fluid" src="{% static 'img/gallery/project-24.jpg' %}" alt="">
+                            <a class="light" href="{% static 'img/gallery/project-24.jpg' %}"><img src="{% static 'img/gallery/icon.png' %}" alt=""></a>
+                        </div>
+                        <div class="g_item_text">
+                            <h4>Ronaldinho</h4>
+        					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur magnam facilis nam omnis excepturi voluptas, velit aut, laudantium temporibus molestiae vero praesentium quia? Iste, nobis nemo! Reiciendis nobis ratione provident.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more gallery items with similar structure -->
+            </div>
+            
+        </div>
+    </section>
+    <!--================End Home Gallery Area =================-->
+
+
+
+{% endblock %}

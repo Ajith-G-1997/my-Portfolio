@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% block title %}Home Page{%endblock%}
+{% block content %}
+<section class="home_banner_area">
+    <div class="container box_1620">
+        <div class="banner_inner d-flex align-items-center">
+            <div class="banner_content">
+                <div class="media">
+                    <div class="d-flex">
+                        <img src="{% static 'img/personal.jpg' %}" alt="">
+                    </div>
+                    <div class="media-body">
+                        <div class="personal_text">
+                            <h6>Hello Everybody, I am</h6>
+                            <h3>Ajith G</h3>
+                            <h4>Python/Django developer</h4>
+                            <p>You will begin to realize why this exercise is called the Dickens Pattern (with reference to the ghost showing Scrooge some different futures)</p>
+                            <ul class="list basic_info">
+                                <li><a href="#"><i class="lnr lnr-calendar-full"></i> 14 January, 1997</a></li>
+                                <li><a href="#"><i class="lnr lnr-phone-handset"></i> (+91) 8157851747</a></li>
+                                <li><a href="#"><i class="lnr lnr-envelope"></i> Ajithkrihsna239@gmail.com </a></li>
+                                <li><a href="#"><i class="lnr lnr-home"></i>Kerala,Palakkad</a></li>
+                            </ul>
+                            <ul class="list personal_social">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--================End Welcome Area =================-->
+
+{% endblock %}

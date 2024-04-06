@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% block title %}Likes Page{%endblock%}
+{% block content %}
+<section class="home_banner_area blog_banner">
+    <div class="banner_inner d-flex align-items-center">
+        <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background="{% static 'your_image_path.jpg' %}"></div>
+        <div class="container">
+            
+        </div>
+    </div>
+</section>
+
+
+
+<section class="blog_categorie_area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="categories_post">
+                    <img src="{% static 'img/blog/cat-post/cat-post-3.jpg' %}" alt="post">
+                    <div class="categories_details">
+                        <div class="categories_text">
+                            <a href="{% url 'football-detail' %}"><h5>Football</h5></a>
+                            <div class="border_line"></div>
+                            <p>Football is Not Just a Game</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="categories_post">
+                    <img src="{% static 'img/blog/cat-post/cat-post-2.jpg' %}" alt="post">
+                    <div class="categories_details">
+                        <div class="categories_text">
+                            <a href="{% url 'games-detail' %}"><h5>Games</h5></a>
+                            <div class="border_line"></div>
+                            <p>Eat. Sleep. Game. Repeat </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="categories_post">
+                    <img src="{% static 'img/blog/cat-post/cat-post-1.jpg' %}" alt="post">
+                    <div class="categories_details">
+                        <div class="categories_text">
+                            <a href="{% url 'food-detail'%}"><h5>Food</h5></a>
+                            <div class="border_line"></div>
+                            <p>Let the food be finished</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+{% endblock %}
